@@ -7,19 +7,48 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!-- Compiled and minified CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+  <style>
+    .row > div{
+      padding: 10px;
+      background: #ddd;
+      border: 1px solid #fff;
+    }
+    .row{
+      margin: 40px auto;
+    }
+  </style>
   <title>Learning Materialize</title>
 </head>
 <body>
 
-  // Container give us left and right margin
   <div class="container">
-    <h4 class="hide">Hide me on all screen sizes</h4>
-    <h4 class="hide-on-small-only">Hide me on small screen sizes</h4>
-    <h4 class="hide-on-med-only">Hide me on medium screen sizes</h4>
-    <h4 class="hide-on-large-only">Hide me on large screen sizes</h4>
-    <h4 class="hide-on-med-and-down">Hide me on medium and small screens sizes</h4>
-    <h4 class="hide-on-med-and-up">Hide me on medium and large screens sizes</h4>
-    <h4 class="">Only show me on small screens</h4>
+    <h4>Grids</h4>
+    <div class="row">
+      <div class="col s3">content</div>
+      <div class="col s3">content</div>
+      <div class="col s3">content</div>
+      <div class="col s3">content</div>
+    </div>
+    <div class="row">
+      <div class="col s6 m3">content</div>
+      <div class="col s6 m3">content</div>
+      <div class="col s6 m3">content</div>
+      <div class="col s6 m3">content</div>
+    </div>
+    <div class="row">
+      <div class="col s12 m6 l4 xl2">content</div>
+      <div class="col s12 m6 l4 xl2">content</div>
+      <div class="col s12 m6 l4 xl2">content</div>
+      <div class="col s12 m6 l4 xl2">content</div>
+      <div class="col s12 m6 l4 xl2">content</div>
+      <div class="col s12 m6 l4 xl2">content</div>
+    </div>
+    <div class="row">
+      <div class="col s12 m8">content</div>
+      <div class="col s12 m4">content</div>
+      <div class="col s12 m4">content</div>
+      <div class="col s12 m8">content</div>
+    </div>
   </div>
   
   <!-- Compiled and minified JavaScript -->
